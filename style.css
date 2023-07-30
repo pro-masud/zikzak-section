@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'GeoSlab703 Md BT';
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+
+/* section-padding styling start */
+
+.zikzak-bg-1{
+    background-image: url(./images/1.jpg);
+}
+
+.zikzak-bg-2{
+    background-image: url(./images/2.jpg);
+}
+
+.section-padding{
+    background-position: center;
+    background-size: cover;
+}
+
+.zikzak-title{
+    position: relative;
+    z-index: 2;
+    padding-right: 40px;
+    color: #fff;
+    padding: 100px 30px;
+}
+
+.zikzak-title:after{
+    position: absolute;
+    top: 0;
+    left: -4894%;
+    width: 5000%;
+    height: 100%;
+    background-color: #333;
+    content: "";
+    z-index: -1;
+    transform: skew(10deg);
+    opacity: .7;
+}
+
+.btn{
+    color: #333;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.zikzak-bg-2{
+    overflow: hidden;
+}
+
+.zikzak-bg-2 .zikzak-title {
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.zikzak-bg-2 .zikzak-title:after{
+    left: auto;
+    right: -4900%;
+}
